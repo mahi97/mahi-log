@@ -22,21 +22,21 @@ layout: default
           <a class="post-tag" href="/mahi-log/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
         {% endfor %}
       </span>
-      <!--
-      <span class="share-buttons">
-        <span class="share-button"><a class="twitter-share-button" href="https://twitter.com/share" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></span>
 
-        <span class="share-button"><span class="fb-like" data-href="{{ page.url }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></span></span>
-      </span>
-      <div style="clear: both;"/>
-      -->
 
-    </p>
+      <div class="reading-time">
+        <span class="reading-time__label"></span>
+        <span class="reading-time__duration"></span>
+        <span class="reading-time__word-count"></span>
+      </div>
+
+  </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+
 
 
   <div class="page-navigation">
@@ -48,6 +48,13 @@ layout: default
       <a class="next" href="{{page.next.url | relative_url}}">{{page.next.title}} &rarr;</a>
     {% endif %}
   </div>
+
+  <script src="/mahi-log/assets/scripts/reading-time.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      new ReadingTime(270, 'Reading time:', 'min', 'words', 'Less than a minute');
+    })
+  </script>
 
   {% if page.comments %}
     {% include disqus.html %}
