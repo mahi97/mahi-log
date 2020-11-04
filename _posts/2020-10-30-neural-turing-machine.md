@@ -205,4 +205,25 @@ Before jumping to plots and graphs, I just want to recall what we expected to se
 ### How NTM utilize the memory at all?
 
 ## Conclusion
+Neuroscience and computer architecture suggest use of external memory
+NTM offers a possible solution to a key criticism of connectionism (variable-binding)
+Blurry reads and writes are critical for learning how to use memory
+NTMs can outperform and learn more generalizable algorithms than LSTMs
+NTM memory access is natural (Is it learning algorithm?)
+
+
 ## Future Works
+
+Any Drawbacks of NTM?
+NTM Lacks the support for pointer and data structures
+No link between data or ability to backtrack
+There’s no way to unallocate memory
+
+
+
+Open Questions?
+What is the true role of memory in deep learning?
+How can memory be traded with learnable parameter?
+What is the best way to utilize memory?
+How the data is encoded, stored and extracted in the memory?
+Can we learn the memory size and structures too?
