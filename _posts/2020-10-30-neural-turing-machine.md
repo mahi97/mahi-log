@@ -13,7 +13,7 @@ tags: meta-learning deep-learning machine-learning memory-augmented
 
 *Can Neural Network Learn Program?*
 
-Have you ever though having a pen and piece of paper can help you in solving a problem?
+Have you ever thought having a pen and piece of paper can help you in solving a problem?
 Have you ever write a program that can do better only by having more amount of memory?
 Having more a piece of paper doesn't make you any smarter but you know how utilize the pen and paper to solve more complex problem faster.
 
