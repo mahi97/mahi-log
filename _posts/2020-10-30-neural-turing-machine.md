@@ -15,16 +15,18 @@ This post discusses how NTM interacts and utilizes memory and shows a robust imp
 *Can Neural Network Learn Program?*
 
 Have you ever thought having a pen and piece of paper can help you in solving a problem?
+
 Have you ever write a program that can do better only by having more amount of memory?
-Having more a piece of paper doesn't make you smarter but you know how utilize the pen and paper to solve more complex problem faster.
+
+Having more paper doesn't make you smarter (does it?), you know how utilize the pen and paper to split a complex problem to simple steps.
 
 
-The same story goes for Neural Networks. We leave them to solve our problems without any external memory. It leads to an unnatural way of learning that usually is not **Robust**, **Scalable**, and needs a **Massive** amount of samples.
+The same story goes for Neural Networks. We leave them to solve our problems without any pen or paper, and it leads to an unnatural way of learning that usually is not **Robust**, **Scalable**, and needs a **Massive** amount of samples.
 
 Alex Graves(DeepMind) claims this in his paper on NTM:
 > We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes.
 
-But there’s no official implementation of his work, so in this post, we discuss how NTM works and present a robust implementation of NTM that trained on different tasks and achieved performance near what was reported in the original paper.
+But there’s no official implementation of his work, so in this post, we discuss how NTM works and present a robust implementation of NTM in next post that trained on different tasks and achieved performance near what was reported in the original paper.
 
 {: class="table-of-content"}
 * TOC
@@ -32,9 +34,10 @@ But there’s no official implementation of his work, so in this post, we discus
 
 ## Motivation
 
-When we face complex problems: On the one hand, we have the training of large-scale deep learning models, which is not so *natural*, e.g., we need a massive amount of data to train specific tasks with no ability to generalize or deal with noises, no human learn like this.
+When we face complex problems: On the one hand, we can train a large-scale deep learning model, which is not so *natural*. Therefore, we need a massive amount of data to train specific tasks with no ability to generalize or deal with noises.
 On the other hand, we have good old symbolic AI, which cannot keep up in accuracy and speed with Neural Network, but understandable and robust.
-From the early days of Neural Network (when they call it *connectivisim* approach or distributed data processing), symbolic AI scientist raises to critics about it:
+
+From the early days of Neural Network (when they call it *connectivisim* approach or distributed data processing), symbolic AI scientist raises to critics:
   1. Incapable of handling variable-sized input
   2. Incapable of “variable-binding” (e.g. Mary Spokes to John; we bind Mary to subject role.)
 
