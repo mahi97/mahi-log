@@ -6,7 +6,8 @@ date: 2020-10-30 12:00:00
 tags: meta-learning deep-learning machine-learning memory-augmented
 ---
 
-> Neural Turing Machine (NTM) is one of the first practices for utilizing an external memory to improve neural networks performance, It aims to learn how to use a memory bank and act like a computer program in order to achieve a more generalize solution and with far less samples. In this post we discuss how NTM interact and utilize a memory and show a robust implementation of NTM with PyTorch.
+> Neural Turing Machine (NTM) is one of the first practices for utilizing an external memory to improve neural network performance; It aims to learn how to use a memory bank and act like a computer program to achieve a more generalized solution with fewer samples.
+This post discusses how NTM interacts and utilizes memory and shows a robust implementation of NTM with PyTorch.
 
 
 <!--more-->
@@ -15,9 +16,9 @@ tags: meta-learning deep-learning machine-learning memory-augmented
 
 Have you ever thought having a pen and piece of paper can help you in solving a problem?
 Have you ever write a program that can do better only by having more amount of memory?
-Having more a piece of paper doesn't make you any smarter but you know how utilize the pen and paper to solve more complex problem faster.
+Having more a piece of paper doesn't make you smarter but you know how utilize the pen and paper to solve more complex problem faster.
 
-Same story goes for Neural Networks we leave them to solve our problems without any external memory and it leads to an unnatural way of learning which usually is not **Robust**, **Scalable** and needs **Huge** amount of samples.
+The same story goes for Neural Networks we leave them to solve our problems without any external memory and it leads to an unnatural way of learning which usually is not **Robust**, **Scalable** and needs **Huge** amount of samples.
 
 The Alex Graves,(DeepMind) claims this in his paper on NTM:
 > We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes.
@@ -149,37 +150,37 @@ The controller can be any NN, the paper test how Feed-Forward or RNN perform on 
 ## Implementation
 
 They say you didn't understand it unless you can explain it well,
-I believe in our subject you didn't understand it unless you implement it well, and as there was no official implementation for this paper I was eager to do it myself and see what can goes wrong, and as I expected anything that can go wrong did go wrong so I learned few tricks to make it robust and fast.
+I believe in CS you didn't understand it unless you implement it well, and as there was no official implementation for this paper I was eager to do it myself and see what can goes wrong, and as I expected anything that can go wrong did go wrong so I learned few tricks to make it robust and fast. I explain the code and implementation with PyTorch on another post, but for now we just focus on concepts.
 
   1. Here's what I understood first time read the papers, I decide on those activation functions respected to bounds and behavior of variables. seems good, doesn't work!
 
   ![Implementation 1]({{ '/assets/post-fig/ntm_imp_diag1.png' | relative_url }})
-  {: style="width: 70%;" class="center"}
+  {: style="width: 100%;" class="center"}
   *Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
 
   2. **Moore to Mealy**. First trick is which improved the speed of training and also robustness was changing from moore to mealy which means not only state of controller decide on output but also current values of read heads should be involved.
 
   ![Implementation 1]({{ '/assets/post-fig/ntm_imp_diag2.png' | relative_url }})
-  {: style="width: 70%;" class="center"}
+  {: style="width: 100%;" class="center"}
   *Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
 
 
   3. **Split the FC!**. Yes! it actually help a lot and have gain in performance.
 
   ![Implementation 1]({{ '/assets/post-fig/ntm_imp_diag3.png' | relative_url }})
-  {: style="width: 70%;" class="center"}
+  {: style="width: 100%;" class="center"}
   *Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
 
   4. **Clip output and gradient**. This is very important in robustness of training otherwise you may face g radiant exploit. I tried to clip it in range of $$[-10, 10]$$ and works fine.
 
   ![Implementation 1]({{ '/assets/post-fig/ntm_imp_diag4.png' | relative_url }})
-  {: style="width: 70%;" class="center"}
+  {: style="width: 100%;" class="center"}
   *Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
 
   5. **Initialization Matters**. The initial values of memory and heads matter a lot in training, there's actually a paper [] on comparing the performance of different Initialization, here's what I found: you should either go with constant Initialization of memory and trainable Initialization for heads, or just initialize everything uniformly random. (I did the second one, but first is recommended).
 
   ![Implementation 1]({{ '/assets/post-fig/ntm_imp_diag5.png' | relative_url }})
-  {: style="width: 70%;" class="center"}
+  {: style="width: 100%;" class="center"}
   *Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
 
 ## Experiment & Result
@@ -188,8 +189,8 @@ The paper suggest 5 tasks, which I implement and test 3 of them.
   1. Copy Task
   2. Repeated Copy Tasks
   3. Associative Recall
-  4. Priority Sort (*Not Implemented*)
-  5. Find N-Gram (*Not Implemented*)
+  4. Priority Sort
+  5. Find N-Gram
 
 Before jumping to plots and graphs, I just want to recall what we expected to see in this results:
   1. Can NTM learn more **Natural**? (e.g. less samples)
@@ -198,32 +199,68 @@ Before jumping to plots and graphs, I just want to recall what we expected to se
 
 ### Can NTM learn more **Natural**?
 
+First comparison of NTM and LSTM in different tasks to see how faster NTM learns.
+
+![Implementation 1]({{ '/assets/post-fig/ntm_copy_learning_curve.png' | relative_url }})
+{: style="width: 100%;" class="center"}
+*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+
+![Implementation 1]({{ '/assets/post-fig/ntm_repeat_copy_learning_curve.png' | relative_url }})
+{: style="width: 100%;" class="center"}
+*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+
+![Implementation 1]({{ '/assets/post-fig/ntm_associative_recall_curve.png' | relative_url }})
+{: style="width: 100%;" class="center"}
+*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+
+![Implementation 1]({{ '/assets/post-fig/ntm_priority_sort_curve.png' | relative_url }})
+{: style="width: 100%;" class="center"}
+*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+
+![Implementation 1]({{ '/assets/post-fig/ntm_priority_sort_curve.png' | relative_url }})
+{: style="width: 100%;" class="center"}
+*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
 
 ### Can NTM **Generalize** beyond training range?
 
+Second, how good NTM can generalize the out of training range:
+
+![Implementation 1]({{ '/assets/post-fig/ntm_copy_generalization_ntm.png' | relative_url }})
+{: style="width: 100%;" class="center"}
+*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+
+![Implementation 1]({{ '/assets/post-fig/ntm_repeat_copy_generalization.png' | relative_url }})
+{: style="width: 100%;" class="center"}
+*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
 
 ### How NTM utilize the memory at all?
 
+Third, the way NTM utilized the memory is the same way if a programmer wants to use the memory for copy task.
+This similarity may recall from the fact that NTM is learning a program instead of a function estimator.
+
+![Implementation 1]({{ '/assets/post-fig/ntm_copy_memory_trace.png' | relative_url }})
+{: style="width: 100%;" class="center"}
+*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+
+
 ## Conclusion
-Neuroscience and computer architecture suggest use of external memory
-NTM offers a possible solution to a key criticism of connectionism (variable-binding)
-Blurry reads and writes are critical for learning how to use memory
-NTMs can outperform and learn more generalizable algorithms than LSTMs
-NTM memory access is natural (Is it learning algorithm?)
+
+In conclusion, the idea from neuroscience and computer architecture suggest use of external memory as a possible solution to a key criticism of connectionism (variable-binding).
+NTM need a blurry reads and writes for learning how to use memory and it can outperform and learn more generalizable algorithms than LSTM.
+NTM memory access is natural (Is it learning algorithm?).
 
 
 ## Future Works
 
-Any Drawbacks of NTM?
-NTM Lacks the support for pointer and data structures
-No link between data or ability to backtrack
-There’s no way to unallocate memory
+**Any Drawbacks of NTM?**
+  1.  NTM Lacks the support for pointer and data structures
+  2.  No link between data or ability to backtrack
+  3.  There’s no way to unallocate memory
 
 
-
-Open Questions?
-What is the true role of memory in deep learning?
-How can memory be traded with learnable parameter?
-What is the best way to utilize memory?
-How the data is encoded, stored and extracted in the memory?
-Can we learn the memory size and structures too?
+**My Open Questions?**
+  1.  What is the true role of memory in deep learning?
+  2.  How can memory be traded with learnable parameter?
+  3.  What is the best way to utilize memory?
+  4.  How the data is encoded, stored and extracted in the memory?
+  5.  Can we learn the memory size and structures too?
