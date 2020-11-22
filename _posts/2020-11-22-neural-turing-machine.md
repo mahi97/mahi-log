@@ -164,14 +164,14 @@ I believe in CS: you didn't understand it unless you implement it well, As there
 
     ![Implementation 1]({{ '/assets/post-fig/ntm_imp_diag1.png' | relative_url }})
     {: style="width: 100%;" class="center"}
-    *Figure 2. NTM Architecture Level1.*
+    *Figure 7. NTM Architecture Level1.*
 
 2. **Moore to Mealy**.
     The first trick is to improve the speed of training, and also robustness was changing from Moore to mealy, which means that the state of the controller can decide on output and current values of read heads should be involved.
 
     ![Implementation 1]({{ '/assets/post-fig/ntm_imp_diag2.png' | relative_url }})
     {: style="width: 100%;" class="center"}
-    *Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+    *Figure 8. Adding Path between read head and ootput*
 
 
   3. **Split the FC!**.
@@ -179,30 +179,29 @@ I believe in CS: you didn't understand it unless you implement it well, As there
 
       ![Implementation 1]({{ '/assets/post-fig/ntm_imp_diag3.png' | relative_url }})
       {: style="width: 100%;" class="center"}
-      *Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+      *Figure 9. Split Fully Connected Layer*
 
   4. **Clip output and gradient**.
      This is very important in the robustness of training; otherwise, you may face g radiant exploit. I tried to clip it in the range of $$[-10, 10]$$ and works fine.
 
      ![Implementation 1]({{ '/assets/post-fig/ntm_imp_diag4.png' | relative_url }})
      {: style="width: 100%;" class="center"}
-     *Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+     *Figure 10. Clip gradient and outputs*
 
   5. **Initialization Matters**.
       The initial values of memory and heads matter a lot in training; [Collier et al. 2018](https://arxiv.org/abs/1807.08518) compared the performance of different Initialization; here's what I understand: you should either go with constant Initialization of memory and trainable Initialization for heads or initialize everything uniformly random. (I did the second one, but first is recommended).
 
       ![Implementation 1]({{ '/assets/post-fig/ntm_imp_diag5.png' | relative_url }})
       {: style="width: 100%;" class="center"}
-      *Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+      *Figure 11. Distribution of initialization of memory and heads matters*
 
 ## Experiment & Result
 
-The paper suggests five tasks, which I implement and test 3 of them.
+The paper suggests five tasks, which I implement and test four of them.
   1. Copy Task
   2. Repeated Copy Tasks
   3. Associative Recall
   4. Priority Sort
-  5. Find N-Gram
 
 Before jumping to plots and graphs, I want to recall what we expected to see in these results:
   1. Can NTM learn more **Natural**? (e.g. fewer samples)
@@ -215,23 +214,20 @@ Firstly, there is the comparison of NTM and LSTM in different tasks to see how f
 
 ![Implementation 1]({{ '/assets/post-fig/ntm_copy_learning_curve.png' | relative_url }})
 {: style="width: 100%;" class="center"}
-*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+*Figure 12. NTM and LSTM learning curve for copy task*
 
 ![Implementation 1]({{ '/assets/post-fig/ntm_repeat_copy_learning_curve.png' | relative_url }})
 {: style="width: 100%;" class="center"}
-*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+*Figure 13. NTM and LSTM learning curve for repeat copy task*
 
 ![Implementation 1]({{ '/assets/post-fig/ntm_associative_recall_curve.png' | relative_url }})
 {: style="width: 100%;" class="center"}
-*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+*Figure 14.NTM and LSTM learning curve for associative recall task*
 
 ![Implementation 1]({{ '/assets/post-fig/ntm_priority_sort_curve.png' | relative_url }})
 {: style="width: 100%;" class="center"}
-*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+*Figure 15.NTM and LSTM learning curve for priority sort task*
 
-![Implementation 1]({{ '/assets/post-fig/ntm_priority_sort_curve.png' | relative_url }})
-{: style="width: 100%;" class="center"}
-*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
 
 ### Can NTM **Generalize** beyond the training range?
 
@@ -239,11 +235,11 @@ Second, how good NTM can generalize the out of training range:
 
 ![Implementation 1]({{ '/assets/post-fig/ntm_copy_generalization_ntm.png' | relative_url }})
 {: style="width: 100%;" class="center"}
-*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+*Figure 16. NTM and LSTM Generalization performance on Copy Task (Train for 10, Test for 120)*
 
 ![Implementation 1]({{ '/assets/post-fig/ntm_repeat_copy_generalization.png' | relative_url }})
 {: style="width: 100%;" class="center"}
-*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+*Figure 17. NTM and LSTM Generalization performance on Repeat Copy Task (Train for 3, Test for 20)*
 
 ### How NTM utilize memory at all?
 
@@ -252,7 +248,7 @@ This similarity may recall from the fact that NTM is learning a program instead 
 
 ![Implementation 1]({{ '/assets/post-fig/ntm_copy_memory_trace.png' | relative_url }})
 {: style="width: 100%;" class="center"}
-*Figure 2. Addressing By Content Similarity . (Image source: Original Paper)*
+*Figure 18. Memory Read/Write heat map trough time. (Image source: Original Paper)*
 
 
 ## Conclusion
