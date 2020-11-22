@@ -7,7 +7,7 @@ tags: meta-learning deep-learning machine-learning memory-augmented
 ---
 
 > Neural Turing Machine (NTM) is one of the first practices for utilizing an external memory to improve neural network performance; It aims to learn how to use a memory bank and act like a computer program to achieve a more generalized solution with fewer samples.
-This post discusses how NTM interacts and utilizes memory and shows a robust implementation of NTM with PyTorch.
+This post discusses how NTM interacts and utilizes memory and tricks for a robust implementation.
 
 
 <!--more-->
