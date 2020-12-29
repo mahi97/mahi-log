@@ -43,15 +43,14 @@
         {% endfor %}
     {% endif %}
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon-16x16.png' | relative_url }}">
     <link rel="manifest" href="/assets/favicon/site.webmanifest">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
     <!-- For Latex -->
-    <script src="/assets/scripts/MathJax.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
