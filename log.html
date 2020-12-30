@@ -2,8 +2,12 @@
 layout: default
 ---
 <div class="home other-pages">
-  <h1 class="page-heading">Archive</h1>
+  <h1 class="page-heading">Logs</h1>
   <ul class="posts">
-  	<li>An Overview of Neural Turing Machine (Oct 30, 2020)</li>
+    {% for log in site.logs reversed %}
+      <li>
+        <a href="{{ log.url | prepend: site.baseurl }}">{{ log.title }}</a> ({{ log.date | date: "%b %-d, %Y" }})
+      </li>
+    {% endfor %}
   </ul>
 </div>
