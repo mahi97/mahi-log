@@ -1,7 +1,7 @@
 ---
 layout: log
 title: "Ten days passed"
-date: 2021-1-19 12:00:00
+date: 2021-01-19 12:00:00
 tags:
 ---
 
