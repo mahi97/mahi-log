@@ -1,7 +1,7 @@
 ---
 layout: log
 title: "Leave it and Go"
-date: 2021-1-3 12:00:00
+date: 2021-01-03 12:00:00
 tags:
 ---
 
