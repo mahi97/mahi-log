@@ -1,7 +1,7 @@
 ---
 layout: log
 title: "New Year, Same Me"
-date: 2021-1-1 12:00:00
+date: 2021-01-01 12:00:00
 tags:
 ---
 
