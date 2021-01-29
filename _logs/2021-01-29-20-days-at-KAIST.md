@@ -1,6 +1,6 @@
 ---
 layout: log
-title: "First Month at KAIST."
+title: "20 Days at KAIST."
 date: 2021-01-29 12:00:00
 tags:
 ---
