@@ -1,7 +1,7 @@
 ---
 layout: log
 title: "First day at KAIST."
-date: 2021-1-8 12:00:00
+date: 2021-01-08 12:00:00
 tags:
 ---
 
