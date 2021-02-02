@@ -1,6 +1,6 @@
 ---
 layout: log
-title: "Leave it and Go"
+title: "Another Boring Day"
 date: 2021-01-03 12:00:00
 tags:
 ---
