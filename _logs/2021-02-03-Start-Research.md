@@ -25,6 +25,6 @@ Eating two times a day doesn't feel very expensive to me, but I have to calculat
 For now my records only contain the day that I spend the money but maybe the purchase was for longer amount of time, like paying the rent of dormitory.
 I like put more effort on analysis of my life and how I spend the money maybe it's just a side effect of working in a BI project. :)
 
-![]({{'/assets/log-pic/20210131_141911.jpg' | relative_url }})
+![KAIST Library]({{'/assets/log-pic/20210131_141911.jpg' | relative_url }})
 {: style="width: 100%;" class="center"}
 *Just a Picture from KAIST Library*
