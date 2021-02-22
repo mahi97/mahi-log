@@ -39,7 +39,8 @@ Anyway let's skip this part like all hard part of papers which you skip reading,
 *Last Snow in last days of your stay in 505*
 
 ![HeiMang 505]({{ '/assets/log-pic/20210218_003515.jpg' | relative_url }})
-{: style="width: 100%;" class="center"} *Last Snow in last days of your stay in 505*
+{: style="width: 100%;" class="center"} 
+*Last Snow in last days of your stay in 505*
 
 ----
 
