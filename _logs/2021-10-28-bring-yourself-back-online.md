@@ -1,5 +1,5 @@
 ---
-layout: log
+layout: plog
 title: "Bring yourself back online"
 date: 2021-10-28 12:00:00
 ---
@@ -16,7 +16,6 @@ So it leads you(me) to write this stuff here, we are doing this writing in `gith
 
 Let me try it for one time:
 
-<div align="justify" dir="rtl" style="font-family:vazir;">
 
 سلام ماحی عزیز
 
@@ -35,7 +34,6 @@ Let me try it for one time:
 
 هیچ وقت فکر نمیکردم وقتی فارسی بنویسم اینقدر متفاوت باشه احساساتم، عمیقا تفکرات و احساسات ما به کلمات و زبانی که استفاده میکنیم گره خورده کاشکی زبونی بلد بودیم که توش نمیشد حرفی از دلتنگی زد اونوقت دیگه بهش فکر هم نمیکردیم.
 
-</div>
 
 Maybe that's the reason I want to write in English, I want to ignore my feelings, I don't want to open doors to my past or to my deep thought that can only be spoken in my mother tounge. This ignorance make me happy.
 
