@@ -26,11 +26,16 @@ layout: default
   </p>
   </header>
     
-  <div class="post-content" itemprop="articleBody" dir="rtl">
+  <!-- <div class="post-content" itemprop="articleBody" dir="rtl">
     {{ content }}
+  </div> -->
+
+  {% assign paragraphs = page.content | newline_to_br | strip_newlines | split: '<br />' %}
+  {% for p in paragraphs %}
+  <div dir="auto"> 
+  {{ p }}
   </div>
-
-
+  {% endfor %}
 
   <div class="page-navigation">
     {% if page.previous.url %}
