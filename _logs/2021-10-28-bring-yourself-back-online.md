@@ -1,5 +1,5 @@
 ---
-layout: log
+layout: plog
 title: "Bring yourself back online"
 date: 2021-10-28 12:00:00
 ---
