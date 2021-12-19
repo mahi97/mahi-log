@@ -6,6 +6,7 @@ date: 2021-12-20 12:00:00
 
 Hello MAHI :)
 
+
 I just finished my last course of Ph.D., still three and a half more years to go, but at least I will hopefully focus only on research.
 
 This semester I had four courses, all great and exciting, but I could not spend enough time on any of them :(
