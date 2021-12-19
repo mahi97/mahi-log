@@ -19,6 +19,8 @@ I spend a fantastic night with them; they are so kind and helpful to me all the 
 
 I have less than a month to submit a paper for IJCAI and am kind of stressed about my work. Still, the experiment results are not promising, and I could not even finish the code. I had high hopes for this one. I thought maybe this was my first big shot.
 
+
+
 از طرفی هم خیلی دلم میخواد برگردم ایران اگه بشه طرفای بهمن ماه، اما یکی از شرایطش احتمالا اینکه بتونم مقاله خوبی سابمیت کنم تا خودم حداقل راضی باشم از این یه سالی که اینجا گذروندم. باورم نمیشه هنوز که یکسال گذشت خیلی زودتر از اونکه بفهمم چی شد.
 
 اخیرا بیشتر از هرچیزی به بی هدف بودن زندگی و معنا پشت این بازی فکر میکنم اما تهش هم فکر به جایی نمیرسه، کاش یروزی یه جایی یکی اینو بفهمه

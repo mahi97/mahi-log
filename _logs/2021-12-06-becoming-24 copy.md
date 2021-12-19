@@ -4,41 +4,28 @@ title: "Becoming 2422"
 date: 2021-12-06 12:00:00
 ---
 
-داره 24 سالم میشه
-امشب وقتی بهش فکر کردم اول ترسیدم و این متن رو هم دارم از روی ترسم مینویسم تا شاید آرومم کنه
-
-24 سال از شیراز تا دجون
+Hello MAHI :)
 
 
-اگه از احوالات الانم بگم میشه گفت در حال تحولم هر روز با دید باز دارم به دنیا نگاه میکنه همه صحبت ها رو گوش میدم و کم کم اعتمادم به همه دانسته هام از بین میره ... از کپیتالیسم متنفرم و هر روز امیدوارم راهی پیدا بشه تا این سیستم فروبریزه ... کمونیست نیستم.
+I just finished my last course of Ph.D., still three and a half more years to go, but at least I will hopefully focus only on research.
+
+This semester I had four courses, all great and exciting, but I could not spend enough time on any of them :(
+Maybe it was a better idea if I took fewer courses this semester, but in that case, I got to take offline courses next semester, and that was not fun at all.
+
+Last week, I had my birthday; many kind people sent me to thank you messages and gifts and two surprise gatherings with cake.
+
+Another highlight of the last week was Younghyun and Jiyeon invited me to their house, and we cooked "egg in hell" :)
+I spend a fantastic night with them; they are so kind and helpful to me all the time. I always hope I can be a good friend to them too.
+
+I have less than a month to submit a paper for IJCAI and am kind of stressed about my work. Still, the experiment results are not promising, and I could not even finish the code. I had high hopes for this one. I thought maybe this was my first big shot.
 
 
-یک سال و نیم از وقتی که دکترا رو شروع کردم میگذره و حدود یک سال از وقتی ایران و ترک کردم ... وقتی ایران بودم تمام تلاشم رو میکردم که بتونم دوهفته بیرون ایران بگذرونم الان تمام تلاشم اینه که دوهفته برگردم ایران 
 
-isn't it i-r-o-n-i-c?
+از طرفی هم خیلی دلم میخواد برگردم ایران اگه بشه طرفای بهمن ماه، اما یکی از شرایطش احتمالا اینکه بتونم مقاله خوبی سابمیت کنم تا خودم حداقل راضی باشم از این یه سالی که اینجا گذروندم. باورم نمیشه هنوز که یکسال گذشت خیلی زودتر از اونکه بفهمم چی شد.
 
-حس گم شدن دارم حس جاموندن از کاروان و پرسه زدن بیهوده تو صحرا هیچکی نیس راه رو نشونم بده هیچکی نیس بهم بگه نرو برگرد هیچکی نیس
+اخیرا بیشتر از هرچیزی به بی هدف بودن زندگی و معنا پشت این بازی فکر میکنم اما تهش هم فکر به جایی نمیرسه، کاش یروزی یه جایی یکی اینو بفهمه
 
-تنها نیستم خیلی دوست و آشنا دارم که شاید باید تلاش کنم بیش از حد وقتم رو سر صحبت و معاشرت تلف نکنم و به کارام برسم ... مشکل تنها رفتن تو مسیر زندگی به سمت یه هدف معناداره ... زندگیم خالی از معنا شده و وقتی مقصد و معنایی نیس همسفری هم نیست همه فقط رهگذر میشن برات
-
-
-Meeting one dealine after another, finishing one weekend after another, crossing days over calender and feeling more pressure for things undone and roads untraveled, feeling getting empty from all you once had.
-
-I have to write a paper within a month I was so motivated about it was really good idea and I implemented everything from scratch, classic Mahi, but now I just hate to working on it ... isn't it ironic?
-
-I think today society, or at least people that I know, are too fed up with life too much taken, more than we can ever handle, the to-do list we create for ourself always become our not-done list in the end ... isn't it ironic?
-
-I guess if we had less taken from life, we had enough time and energy and focues for other people we had more empathy more understanding but we are just a race horse blinded by the light and noise running to survive and not even take a look back at what we've done to ourselves.
-
-5AM in the morning sitting in a empty room, alone, in front of your PC and writing text that make no sense!
-
-
-بهتره یه جایی آدم خداحافظی کنه که دلش دوباره تنگ بشه زیاد بودن و زیاد حرف زدن دیگه جایی برای دلتنگی نمیزاره
-فک میکنم خیلی با خودم حرف زدم کاشکی میتونستم چند روزی از خودم جدا شم
-
-ماهی ماحی محمد هرچی که هستی الان خوشحال نیستی از شرایطت یه کاریش بکن
-پایان.
-
-
+فعلا شبت بخیر ماحی
+تا بعد :)
 
 
