@@ -1,0 +1,44 @@
+---
+layout: plog
+title: "Becoming 2422"
+date: 2021-12-06 12:00:00
+---
+
+داره 24 سالم میشه
+امشب وقتی بهش فکر کردم اول ترسیدم و این متن رو هم دارم از روی ترسم مینویسم تا شاید آرومم کنه
+
+24 سال از شیراز تا دجون
+
+
+اگه از احوالات الانم بگم میشه گفت در حال تحولم هر روز با دید باز دارم به دنیا نگاه میکنه همه صحبت ها رو گوش میدم و کم کم اعتمادم به همه دانسته هام از بین میره ... از کپیتالیسم متنفرم و هر روز امیدوارم راهی پیدا بشه تا این سیستم فروبریزه ... کمونیست نیستم.
+
+
+یک سال و نیم از وقتی که دکترا رو شروع کردم میگذره و حدود یک سال از وقتی ایران و ترک کردم ... وقتی ایران بودم تمام تلاشم رو میکردم که بتونم دوهفته بیرون ایران بگذرونم الان تمام تلاشم اینه که دوهفته برگردم ایران 
+
+isn't it i-r-o-n-i-c?
+
+حس گم شدن دارم حس جاموندن از کاروان و پرسه زدن بیهوده تو صحرا هیچکی نیس راه رو نشونم بده هیچکی نیس بهم بگه نرو برگرد هیچکی نیس
+
+تنها نیستم خیلی دوست و آشنا دارم که شاید باید تلاش کنم بیش از حد وقتم رو سر صحبت و معاشرت تلف نکنم و به کارام برسم ... مشکل تنها رفتن تو مسیر زندگی به سمت یه هدف معناداره ... زندگیم خالی از معنا شده و وقتی مقصد و معنایی نیس همسفری هم نیست همه فقط رهگذر میشن برات
+
+
+Meeting one dealine after another, finishing one weekend after another, crossing days over calender and feeling more pressure for things undone and roads untraveled, feeling getting empty from all you once had.
+
+I have to write a paper within a month I was so motivated about it was really good idea and I implemented everything from scratch, classic Mahi, but now I just hate to working on it ... isn't it ironic?
+
+I think today society, or at least people that I know, are too fed up with life too much taken, more than we can ever handle, the to-do list we create for ourself always become our not-done list in the end ... isn't it ironic?
+
+I guess if we had less taken from life, we had enough time and energy and focues for other people we had more empathy more understanding but we are just a race horse blinded by the light and noise running to survive and not even take a look back at what we've done to ourselves.
+
+5AM in the morning sitting in a empty room, alone, in front of your PC and writing text that make no sense!
+
+
+بهتره یه جایی آدم خداحافظی کنه که دلش دوباره تنگ بشه زیاد بودن و زیاد حرف زدن دیگه جایی برای دلتنگی نمیزاره
+فک میکنم خیلی با خودم حرف زدم کاشکی میتونستم چند روزی از خودم جدا شم
+
+ماهی ماحی محمد هرچی که هستی الان خوشحال نیستی از شرایطت یه کاریش بکن
+پایان.
+
+
+
+
