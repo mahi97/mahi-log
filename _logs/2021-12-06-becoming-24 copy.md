@@ -1,7 +1,7 @@
 ---
 layout: plog
-title: "Becoming 2422"
-date: 2021-12-06 12:00:00
+title: "About a Year"
+date: 2021-12-20 12:00:00
 ---
 
 Hello MAHI :)
