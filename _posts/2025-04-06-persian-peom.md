@@ -1,5 +1,5 @@
 ---
-layout: plog
+layout: ppost
 comments: true
 title: "Persian Peom: Going from A to Z and Coming back"
 date: 2025-04-06 12:00:00

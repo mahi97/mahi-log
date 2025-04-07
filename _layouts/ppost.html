@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: date_format }}
+      </time>
+
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        by <span itemprop="name">{{ site.author }}</span>
+      </span>
+
+      <span>
+        {% for tag in page.tags %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a class="post-tag" href="/mahi-log/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
+        {% endfor %}
+      </span>
+
+
+      <div class="reading-time">
+        <span class="reading-time__label"></span>
+        <span class="reading-time__duration"></span>
+        <span class="reading-time__word-count"></span>
+      </div>
+
+  </p>
+  </header>
+
+  {% assign paragraphs = page.content | newline_to_br | strip_newlines | split: '<br />' %}
+  {% for p in paragraphs %}
+  <div class="post-content" itemprop="articleBody" dir="auto"> 
+  {{ p }}
+  </div>
+  {% endfor %}
+
+
+  <div class="page-navigation">
+    {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url | relative_url}}">&larr; {{page.previous.title}}</a>
+    {% endif %}
+
+    {% if page.next.url %}
+      <a class="next" href="{{page.next.url | relative_url}}">{{page.next.title}} &rarr;</a>
+    {% endif %}
+  </div>
+
+  <script src="/mahi-log/assets/scripts/reading-time.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      new ReadingTime(270, 'Reading time:', 'min', 'words', 'Less than a minute');
+    })
+  </script>
+
+  {% if page.comments %}
+    {% include disqus.html %}
+  {% endif %}
+
+</article>
