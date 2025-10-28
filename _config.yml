@@ -24,3 +24,5 @@ kramdown:
 collections:
   logs:
     output: true
+  poems:
+    output: true
