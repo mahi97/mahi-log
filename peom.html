@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="home other-pages">
+  <h1 class="page-heading">Poems</h1>
+  <p>Leaving some daily peoms here</p>
+  
+  <ul class="posts">
+    {% for poem in site.poems reversed %}
+      <li>
+        <a href="{{ poem.url | prepend: site.baseurl }}">{{ poem.title }}</a> ({{ poem.date | date: "%b %-d, %Y" }})
+      </li>
+    {% endfor %}
+  </ul>
+</div>
