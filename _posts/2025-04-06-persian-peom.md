@@ -1,9 +1,9 @@
 ---
 layout: ppost
 comments: true
-title: "Persian Peom: Going from A to Z and Coming back"
+title: "Persian Poem: Going from A to Z and Coming back"
 date: 2025-04-06 12:00:00
-tags: persian, peom
+tags: persian, poem
 ---
 
 
