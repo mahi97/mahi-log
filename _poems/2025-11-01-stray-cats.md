@@ -1,6 +1,6 @@
 ---
 layout: poem
-title: "Marigold (Ever-Blooming Flower)"
+title: "Stray Cats"
 date: 2025-11-01 01:00:00
 ---
 گربه های کوچه سراغت را از من میگیرند
