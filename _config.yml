@@ -1,5 +1,5 @@
 title: Mahi'Log
-name: "Mahi's Tech Blog"
+name: "Mahi's Blog"
 author: Mahi Rahimi
 twitter_username: mahirahimi
 baseurl: "/mahi-log"
@@ -24,5 +24,6 @@ kramdown:
 collections:
   logs:
     output: true
+
   poems:
     output: true
