@@ -38,7 +38,7 @@ Be at ease, no one will ever take your place.
 But I still worry — I worry about your tomorrow.
 You took from me everything I knew about love,
 You even took what was left of my feelings.
-You want to stay, but forget that there once was an us.
+You want be on your own, and forget that there once was an us.
 You’re ready to go — it’s only your fear that holds you back.
 Don’t be afraid at all — go freely, without me.
 No one but you remembers me anyway.

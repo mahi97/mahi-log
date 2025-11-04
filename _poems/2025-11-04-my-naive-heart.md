@@ -41,12 +41,12 @@ Don’t let grief’s dust settle upon it
 while you’re still in the height of your youth —
 before it suddenly makes you old, weak, and weary.
 
-Don’t wait for them — they’re not alone anymore.
+Don’t wait for her, she's not alone anymore.
 Even if you stay lonely until your final breath,
-they won’t return.
-They said it themselves —
-one day they’d leave,
-one day they’d forget the memories you shared.
+she won’t return.
+She said it herself —
+one day she’d leave,
+one day she’d forget the memories you shared.
 
 Oh my heart, my innocent heart,
 how long will you keep staring
@@ -55,14 +55,14 @@ Oh my heart, my foolish, crazy heart,
 you see? They left you too,
 after all those endless years.
 
-You see? They’re gone.
-They left you — they really left.
+You see? she's gone.
+She left you — she really left.
 You’re left alone,
 with nothing but loneliness
 and a lifetime of memories before you.
-They won’t come back —
+She won’t come back —
 no, not to you again.
-What’s left of them now
+What’s left of her now
 but a framed photo staring back at you?
 
 Oh my heart, my foolish heart,
