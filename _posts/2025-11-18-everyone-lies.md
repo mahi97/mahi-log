@@ -12,7 +12,7 @@ date: 2025-11-18 01:00:00
 
 # **Everyone Lies**
 
-We all need a story to navigate our lives—
+We all need a story to navigate our lives, 
 and that story usually has one conclusion:
 
 **We deserve more.**
@@ -22,8 +22,8 @@ It isn’t because we’re evil. It’s because we are biological creatures insi
 
 But here’s the problem:
 
-For those of us who *didn’t* grow up with a story of deserving more—
-for those who believed they deserved less, or simply “enough”—
+For those of us who *didn’t* grow up with a story of deserving more, 
+for those who believed they deserved less, or simply “enough”, 
 society, or even a small minority who believed they deserved more, slowly took our resources, piece by piece.
 And we didn’t resist strongly, because our story didn’t prepare us to.
 
@@ -32,12 +32,12 @@ We built stories to protect ourselves.
 
 Stories that say:
 **I deserve more.**
-Not because it is universally true—because it *had* to be true for us to survive.
+Not because it is universally true, because it *had* to be true for us to survive.
 
 But it cannot be true for everyone at the same time.
 You cannot have a limited cake and assume every person deserves a bigger slice.
 
-Since we could not agree on how to divide the cake, people began crafting stronger, more persuasive stories—stories compelling enough to convince others that *their* claim to more was justified.
+Since we could not agree on how to divide the cake, people began crafting stronger, more persuasive stories, stories compelling enough to convince others that *their* claim to more was justified.
 
 And so, merely believing your own story wasn’t enough.
 You needed a story that **convinces others**, even if that required bending reality.
@@ -46,7 +46,7 @@ As George Costanza famously said:
 
 > *“It’s not a lie if you believe it.”*
 
-We lie to ourselves first—convincing ourselves we rightfully deserve more—and then we learn how to convince others.
+We lie to ourselves first, convincing ourselves we rightfully deserve more, and then we learn how to convince others.
 
 There were never any reasons or incentive in evolution for us to develop a objective and critical view of our own stories,
 we did not need a sense of ego, consionness, or morality to survive,
@@ -57,7 +57,9 @@ Any ability we have to question our own stories is a byproduct of other cognitiv
 not an evolved trait designed to help us be more honest or moral.
 
 Anyone that belives they are not self deceptive is simply unaware of their own self-deception,
-as Richard Feynman said: the first principle is that you must not fool yourself—and you are the easiest person to fool.
+as Richard Feynman said: 
+
+> the first principle is that you must not fool yourself, and you are the easiest person to fool.
 
 This is the root of **every major belief system**:
 religions, nationalism, racism, capitalism, communism, and even the human motivations behind countless scientific discoveries, technological breakthroughs, and cultural movements.
@@ -75,7 +77,7 @@ And because everyone around us is doing the same, another story covers all our i
 **the story of society.**
 
 Society’s story is not neutral.
-It is the accumulated effort of millions of individual narratives—each trying to justify why *they* deserve more.
+It is the accumulated effort of millions of individual narratives, each trying to justify why *they* deserve more.
 By accepting society’s story, we indirectly accept that **others** deserve more…
 which means **we** deserve less.
 Therefore, there is a constant tension between our personal story and society’s story.
@@ -116,7 +118,7 @@ That’s why:
 
 Cooperation only works when there is someone outside the walls to take from, resist, or compete with.
 
-Let’s call this the **minimum viable lie**—the essential mask we wear after losing our innocence.
+Let’s call this the **minimum viable lie**, the essential mask we wear after losing our innocence.
 And sometimes this mask stays minimal, only as much deception as we need to survive.
 
 But often, it grows.
@@ -130,7 +132,7 @@ And almost every act of evil in human history can be traced back to this narrati
 
 # **What Comes Next**
 
-Based on this framework, I will explore the seven core questions:
+Based on this framework, I will explore the four core questions:
 
 1. **Who are the people who lie bigger and do more evil?**
 2. **What are the most common patterns we all use for our stories?**
@@ -169,9 +171,17 @@ If someone does not respect themselves and do not see their own value, they can 
 they can only pretend, act, and manipulate a sense of respect and connection to others to get what they want.
 
 This is exactly equvalent with the evil triad in psychology:
-1. Narcissism: excessive self-love and a lack of empathy for others, allowing individuals to exploit and manipulate others to any extend for their own gain.
-2. Machiavellianism: a manipulative and deceitful approach to interpersonal relationships, where individuals prioritize their own interests above all else, often at the expense of others.
-3. Psychopathy: a lack of remorse or guilt for harmful actions, enabling individuals to engage in unethical or immoral behavior without concern for the consequences.
+> 1. **Narcissism**: excessive self-love and a lack of empathy for others.
+> 2. **Machiavellianism**: a manipulative and deceitful approach to interpersonal relationships.
+> 3. **Psychopathy**: a lack of remorse or guilt for harmful actions.
+
+These people are have three abilities that allow them to become master storytellers of evil:
+1. **They can operate under high levels of stress and pressure**, They have a high tolerance for risk and uncertainty: they can lie and manipulate even when the stakes are high, and they can maintain their composure and focus in difficult situations.
+2. **They are unpredictable and adaptable**: They can quickly change their tactics and strategies to fit different situations and audiences, making them difficult to anticipate or counter.
+3. **They have multiple personality disorders**: They can switch between different personas and identities to suit their needs, allowing them to blend in and manipulate others more effectively.
+
+In their mind they are not switching stories, they are not deceiving others, they are just simply being true to their own complex and multifaceted identity.
+They see themselves as justified in their actions, believing that they are entitled to more and that the ends justify the means.
 
 Only when someone master all evil triad traits, they can tell the most convincing stories to deserve more, and do the most evil acts to get it.
 The foolish part is to believe that we are immune to these traits ourselves, as people do the most evil are the ones who do not see their own evil.
@@ -269,7 +279,7 @@ We change the subject or divert attention away from uncomfortable topics to avoi
 ## **13. Omission**
 
 We leave out key details or facts that could undermine our story or make us look bad.
-**Why it’s dangerous:** Omission is the most elegant lie — technically true, but morally false.
+**Why it’s dangerous:** Omission is the most elegant lie,  technically true, but morally false.
 
 ---
 
@@ -353,7 +363,7 @@ We repeat our story or message many times to reinforce it.
 ## **25. Fabrication**
 
 We create completely false stories or events to support our narrative.
-**Why it’s dangerous:** Fabrication requires effort and intention — it is deliberate distortion.
+**Why it’s dangerous:** Fabrication requires effort and intention,  it is deliberate distortion.
 
 ---
 
@@ -390,6 +400,7 @@ We claim that “everyone” believes our story to create social pressure.
 We cite influential figures who are not actually experts in the relevant field.
 **Why it’s dangerous:** Misleads people into trusting opinions that have no real credibility.
 
+---
 
 All these patterns are tools we use to construct and maintain our narratives, I named as many as I could think of, but there are certainly more.
 However, they all boiled down to three core mechanisms:
