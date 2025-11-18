@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "Everyone Lies"
-date: 2020-11-22 01:00:00
+date: 2025-11-18 01:00:00
 ---
 
 > We all need a story to navigate our lives and that story usually has one conclusion: **We deserve more.**
