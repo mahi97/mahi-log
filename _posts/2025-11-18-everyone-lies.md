@@ -193,19 +193,19 @@ While there is no justification for us not to possess these traits, there are am
 Here are some common patterns we use to construct and maintain our personal and collective narratives:
 ---
 
-**1. ** Confirmation bias**: We may seek out information or opinions that support our existing beliefs, while ignoring or dismissing evidence that contradicts them.  *This is the engine behind all self-deception.* 
+**1. Confirmation bias**: We may seek out information or opinions that support our existing beliefs, while ignoring or dismissing evidence that contradicts them.  *This is the engine behind all self-deception.* 
 
-**2. ** Victimhood**: We may portray ourselves as victims to garner sympathy, establish moral authority, or secure protection. *Victimhood grants enormous moral power. It prevents accountability and justifies almost any action.* 
+**2. Victimhood**: We may portray ourselves as victims to garner sympathy, establish moral authority, or secure protection. *Victimhood grants enormous moral power. It prevents accountability and justifies almost any action.* 
 
-**3. ** Strategic/Manufactured Vulnerability**: We may exaggerate or fabricate vulnerabilities to manipulate others into supporting our story, or share their vulnerabilities to create a sense of connection. 
+**3. Strategic/Manufactured Vulnerability**: We may exaggerate or fabricate vulnerabilities to manipulate others into supporting our story, or share their vulnerabilities to create a sense of connection. 
 
-**4. ** Scorekeeping**: We may keep track of favors, sacrifices, or hardships to justify our claims for additional resources or support. 
+**4. Scorekeeping**: We may keep track of favors, sacrifices, or hardships to justify our claims for additional resources or support. 
 
-**5. ** Comparative shaming**: We may compare ourselves to others, or compare them or someone else in a way that highlights their shortcomings and shame them into claiming more from them. 
+**5. Comparative shaming**: We may compare ourselves to others, or compare them or someone else in a way that highlights their shortcomings and shame them into claiming more from them. 
 
-**6. ** Selective memory**: We may recall events in a way that supports our narrative, while forgetting or ignoring contradictory details.   
+**6. Selective memory**: We may recall events in a way that supports our narrative, while forgetting or ignoring contradictory details.   
 
-**7. ** Blame-shifting**: We often blame others for our problems or failures to avoid taking responsibility.   
+**7. Blame-shifting**: We often blame others for our problems or failures to avoid taking responsibility.   
 
 **8. Gaslighting**: We may manipulate others into doubting their own perceptions or memories to maintain control over the narrative.  
 
