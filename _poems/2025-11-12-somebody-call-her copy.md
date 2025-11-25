@@ -1,8 +1,9 @@
 ---
 layout: poem
-title: "ُSomebody Call her"
+title: "Somebody Call her"
 date: 2025-11-12 01:00:00
 ---
+
 یکی بهش زنگ بزنه بگه هنوز تو فکرشم
 
 بگه هنوز مثل قدیم ناز نگاشو میکشم
