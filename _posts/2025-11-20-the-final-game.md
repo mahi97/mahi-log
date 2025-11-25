@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "The Final Game"
-date: 2025-11-19 01:00:00
+date: 2025-11-20 01:00:00
 ---
 
 > Game Theory describes the strategic interactions between rational decision-makers. It appears in economics, political science, psychology, and even biology. Almost any situation where multiple parties make decisions can be understood through it. While each isolated game may have an optimal strategy, the deeper purpose is to understand how strategies behave across repeated interactions over time. This introduces ideas of cooperation, trust, and loyalty, where short-term sacrifices can lead to better long-term outcomes.  
